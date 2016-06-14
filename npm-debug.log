@@ -1,0 +1,715 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v4.4.3/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v4.4.3/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'visionmedia/cpm' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of /home/ubuntu/.nvm/versions/node/v4.4.3/lib/package.json
+5 verbose readDependencies loading dependencies from /home/ubuntu/.nvm/versions/node/v4.4.3/lib/package.json
+6 silly cache add args [ 'visionmedia/cpm', null ]
+7 verbose cache add spec visionmedia/cpm
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'visionmedia/cpm',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: 'visionmedia/cpm',
+8 silly cache add   spec: 'github:visionmedia/cpm',
+8 silly cache add   type: 'hosted',
+8 silly cache add   hosted:
+8 silly cache add    { type: 'github',
+8 silly cache add      ssh: 'git@github.com:visionmedia/cpm.git',
+8 silly cache add      sshUrl: 'git+ssh://git@github.com/visionmedia/cpm.git',
+8 silly cache add      httpsUrl: 'git+https://github.com/visionmedia/cpm.git',
+8 silly cache add      gitUrl: 'git://github.com/visionmedia/cpm.git',
+8 silly cache add      shortcut: 'github:visionmedia/cpm',
+8 silly cache add      directUrl: 'https://raw.githubusercontent.com/visionmedia/cpm/master/package.json' } }
+9 verbose addRemoteGit caching visionmedia/cpm
+10 verbose addRemoteGit visionmedia/cpm is a repository hosted by github
+11 silly tryGitProto attempting to clone git://github.com/visionmedia/cpm.git
+12 silly tryClone cloning visionmedia/cpm via git://github.com/visionmedia/cpm.git
+13 verbose tryClone git-github-com-visionmedia-cpm-git-9b5d2c8b not in flight; caching
+14 verbose correctMkdir /home/ubuntu/.npm/_git-remotes correctMkdir not in flight; initializing
+15 info git [ 'config', '--get', 'remote.origin.url' ]
+16 silly validateExistingRemote visionmedia/cpm remote.origin.url: git://github.com/visionmedia/cpm.git
+17 verbose validateExistingRemote visionmedia/cpm is updating existing cached remote /home/ubuntu/.npm/_git-remotes/git-github-com-visionmedia-cpm-git-9b5d2c8b
+18 info git [ 'fetch', '-a', 'origin' ]
+19 verbose updateRemote git fetch -a origin (git://github.com/visionmedia/cpm.git)
+20 verbose correctMkdir /home/ubuntu/.npm/_git-remotes correctMkdir not in flight; initializing
+21 verbose setPermissions visionmedia/cpm set permissions on /home/ubuntu/.npm/_git-remotes/git-github-com-visionmedia-cpm-git-9b5d2c8b
+22 verbose resolveHead visionmedia/cpm original treeish: master
+23 info git [ 'rev-list', '-n1', 'master' ]
+24 silly resolveHead visionmedia/cpm resolved treeish: 8fa07433fb933ce26b56700b270f01a117b56836
+25 verbose resolveHead visionmedia/cpm resolved Git URL: git://github.com/visionmedia/cpm.git#8fa07433fb933ce26b56700b270f01a117b56836
+26 silly resolveHead Git working directory: /tmp/npm-2051-3ab19610/git-cache-8a874bab0c95/8fa07433fb933ce26b56700b270f01a117b56836
+27 info git [ 'clone',
+27 info git   '/home/ubuntu/.npm/_git-remotes/git-github-com-visionmedia-cpm-git-9b5d2c8b',
+27 info git   '/tmp/npm-2051-3ab19610/git-cache-8a874bab0c95/8fa07433fb933ce26b56700b270f01a117b56836' ]
+28 verbose cloneResolved visionmedia/cpm clone Cloning into '/tmp/npm-2051-3ab19610/git-cache-8a874bab0c95/8fa07433fb933ce26b56700b270f01a117b56836'...
+28 verbose cloneResolved done.
+29 info git [ 'checkout', '8fa07433fb933ce26b56700b270f01a117b56836' ]
+30 verbose checkoutTreeish visionmedia/cpm checkout Note: checking out '8fa07433fb933ce26b56700b270f01a117b56836'.
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+30 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+30 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+30 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish   git checkout -b <new-branch-name>
+30 verbose checkoutTreeish
+30 verbose checkoutTreeish HEAD is now at 8fa0743... Update .gitignore
+31 verbose addLocalDirectory /home/ubuntu/.npm/clib/1.7.0/package.tgz not in flight; packing
+32 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+33 verbose tar pack [ '/home/ubuntu/.npm/clib/1.7.0/package.tgz',
+33 verbose tar pack   '/tmp/npm-2051-3ab19610/git-cache-8a874bab0c95/8fa07433fb933ce26b56700b270f01a117b56836' ]
+34 verbose tarball /home/ubuntu/.npm/clib/1.7.0/package.tgz
+35 verbose folder /tmp/npm-2051-3ab19610/git-cache-8a874bab0c95/8fa07433fb933ce26b56700b270f01a117b56836
+36 verbose addLocalTarball adding from inside cache /home/ubuntu/.npm/clib/1.7.0/package.tgz
+37 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+38 verbose addRemoteGit data._from: visionmedia/cpm
+39 verbose addRemoteGit data._resolved: git://github.com/visionmedia/cpm.git#8fa07433fb933ce26b56700b270f01a117b56836
+40 silly cache afterAdd clib@1.7.0
+41 verbose afterAdd /home/ubuntu/.npm/clib/1.7.0/package/package.json not in flight; writing
+42 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+43 verbose afterAdd /home/ubuntu/.npm/clib/1.7.0/package/package.json written
+44 silly install resolved [ { name: 'clib',
+44 silly install resolved     version: '1.7.0',
+44 silly install resolved     repo: 'clibs/clib',
+44 silly install resolved     dependencies:
+44 silly install resolved      { 'stephenmathieson/trim.c': '0.0.2',
+44 silly install resolved        which: '0.1.3',
+44 silly install resolved        'stephenmathieson/str-flatten.c': '0.0.4',
+44 silly install resolved        'clib-package': '0.4.2',
+44 silly install resolved        commander: '1.3.2',
+44 silly install resolved        'stephenmathieson/wiki-registry.c': '0.0.4',
+44 silly install resolved        'stephenmathieson/case.c': '0.1.3',
+44 silly install resolved        'jwerle/fs.c': '0.1.1',
+44 silly install resolved        'stephenmathieson/http-get.c': '0.1.1',
+44 silly install resolved        'stephenmathieson/tempdir.c': '0.0.2',
+44 silly install resolved        'stephenmathieson/str-replace.c': '0.0.6',
+44 silly install resolved        'darthtrevino/str-concat': '0.0.2',
+44 silly install resolved        strdup: '0.0.0',
+44 silly install resolved        'Constellation/console-colors.c': '1.0.1',
+44 silly install resolved        'littlstar/asprintf.c': '0.0.3',
+44 silly install resolved        logger: '0.0.1',
+44 silly install resolved        'clibs/parson': '1.0.2' },
+44 silly install resolved     install: 'make install',
+44 silly install resolved     gitHead: '8fa07433fb933ce26b56700b270f01a117b56836',
+44 silly install resolved     readme: '# clib(1)\n\n  [![Build Status](https://travis-ci.org/clibs/clib.svg?branch=master)](https://travis-ci.org/clibs/clib)\n\n  Package manager for the C programming language.\n\n  ![c package manager screenshot](https://i.cloudup.com/GwqOU2hh9Y.png)\n\n## Installation\n\n  Expects [libcurl](http://curl.haxx.se/libcurl/) to be installed and linkable.\n\n  With [homebrew](https://github.com/Homebrew/homebrew):\n\n```bash\n$ brew install clib\n```\n\n  With git:\n\n```bash\n$ git clone https://github.com/clibs/clib.git /tmp/clib\n$ cd /tmp/clib\n$ make install\n```\n\n  Ubuntu:\n\n```bash  \n# install libcurl\n$ sudo apt-get install libcurl4-gnutls-dev -qq\n# clone\n$ git clone https://github.com/clibs/clib.git /tmp/clib && cd /tmp/clib\n# build\n$ make\n# put on path\n$ sudo make install\n```\n\n## About\n\n  Basically the lazy-man\'s copy/paste promoting smaller C utilities, also\n  serving as a nice way to discover these sort of libraries. From my experience\n  C libraries are scattered all over the web and discovery is relatively poor. The footprint of these libraries is usually quite large and unfocused. The goal of `clibs` is to provide\n  stand-alone "micro" C libraries for developers to quickly install without coupling\n  to large frameworks.\n\n  You should use `clib(1)` to fetch these files for you and check them into your repository, the end-user and contributors should not require having `clib(1)` installed. This allows clib(1) to fit into any new or existing C workflow without friction.\n\n  The wiki [listing of packages](https://github.com/clibs/clib/wiki/Packages) acts as the "registry" and populates the `clib-search(1)` results.\n\n## Usage\n\n```\n  clib <command> [options]\n\n  Options:\n\n    -h, --help     Output this message\n    -v, --version  Output version information\n\n  Commands:\n\n    install [name...]  Install one or more packages\n    search [query]     Search for packages\n    help <cmd>         Display help for cmd\n```\n\n## Examples\n\n Install a few dependencies to `./deps`:\n\n```bash\n$ clib install clibs/ms clibs/commander\n```\n\n Install them to `./src` instead:\n\n```bash\n$ clib install clibs/ms clibs/commander -o src\n```\n\n When installing libraries from the `clibs` org you can omit the name:\n\n```bash\n$ clib install ms file hash\n```\n\n Install some executables:\n\n```bash\n$ clib install visionmedia/mon visionmedia/every visionmedia/watch\n```\n\n## package.json\n\n Example of a package.json explicitly listing the source:\n\n```json\n{\n  "name": "term",\n  "version": "0.0.1",\n  "repo": "clibs/term",\n  "description": "Terminal ansi escape goodies",\n  "keywords": ["terminal", "term", "tty", "ansi", "escape", "colors", "console"],\n  "license": "MIT",\n  "src": ["src/term.c", "src/term.h"]\n}\n```\n\n Example of a package.json for an executable:\n\n```json\n{\n  "name": "mon",\n  "version": "1.1.1",\n  "repo": "visionmedia/mon",\n  "description": "Simple process monitoring",\n  "keywords": ["process", "monitoring", "monitor", "availability"],\n  "license": "MIT",\n  "install": "make install"\n}\n```\n\n See [explanation of package.json](https://github.com/clibs/clib/wiki/Explanation-of-package.json) for more details.\n\n## Contributing\n\n If you\'re interested in being part of this initiative let me know and I\'ll add you to the `clibs` organization so you can create repos here and contribute to existing ones.\n\n## Articles\n\n  - [Introducing Clib](https://medium.com/code-adventures/b32e6e769cb3) - introduction to clib\n  - [The Advent of Clib: the C Package Manager](http://blog.ashworth.in/the-advent-of-clib-the-c-package-manager/) - overview article about clib\n',
+44 silly install resolved     readmeFilename: 'Readme.md',
+44 silly install resolved     description: '[![Build Status](https://travis-ci.org/clibs/clib.svg?branch=master)](https://travis-ci.org/clibs/clib)',
+44 silly install resolved     _id: 'clib@1.7.0',
+44 silly install resolved     _shasum: '646ca20e6a88d20115096065a49600b96e4abf7f',
+44 silly install resolved     _from: 'visionmedia/cpm',
+44 silly install resolved     _resolved: 'git://github.com/visionmedia/cpm.git#8fa07433fb933ce26b56700b270f01a117b56836' } ]
+45 info install clib@1.7.0 into /home/ubuntu/.nvm/versions/node/v4.4.3/lib
+46 info installOne clib@1.7.0
+47 verbose installOne of clib to /home/ubuntu/.nvm/versions/node/v4.4.3/lib not in flight; installing
+48 verbose correctMkdir /home/ubuntu/.npm/_locks correctMkdir not in flight; initializing
+49 verbose lock using /home/ubuntu/.npm/_locks/clib-ad8fbd7b5493c0ff.lock for /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+50 silly install write writing clib 1.7.0 to /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+51 verbose unbuild lib/node_modules/clib
+52 silly gentlyRm /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib is being purged from base /home/ubuntu/.nvm/versions/node/v4.4.3
+53 verbose gentlyRm don't care about contents; nuking /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+54 verbose tar unpack /home/ubuntu/.npm/clib/1.7.0/package.tgz
+55 verbose tar unpacking to /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+56 silly gentlyRm /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib is being purged
+57 verbose gentlyRm don't care about contents; nuking /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry .npmignore
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm extractEntry test.sh
+63 silly gunzTarPerm extractEntry Makefile
+64 silly gunzTarPerm extractEntry .travis.yml
+65 silly gunzTarPerm extractEntry deps/parse-repo/package.json
+66 silly gunzTarPerm extractEntry deps/parse-repo/parse-repo.c
+67 silly gunzTarPerm extractEntry deps/parse-repo/parse-repo.h
+68 silly gunzTarPerm extractEntry deps/asprintf/package.json
+69 silly gunzTarPerm extractEntry deps/asprintf/asprintf.c
+70 silly gunzTarPerm extractEntry deps/asprintf/asprintf.h
+71 silly gunzTarPerm extractEntry deps/clib-package/package.json
+72 silly gunzTarPerm extractEntry deps/clib-package/clib-package.c
+73 silly gunzTarPerm extractEntry deps/clib-package/clib-package.h
+74 silly gunzTarPerm extractEntry deps/commander/package.json
+75 silly gunzTarPerm extractEntry deps/commander/commander.c
+76 silly gunzTarPerm extractEntry deps/commander/commander.h
+77 silly gunzTarPerm extractEntry deps/console-colors/package.json
+78 silly gunzTarPerm extractEntry deps/console-colors/console-colors.c
+79 silly gunzTarPerm extractEntry deps/console-colors/console-colors.h
+80 silly gunzTarPerm extractEntry deps/debug/package.json
+81 silly gunzTarPerm extractEntry deps/debug/debug.c
+82 silly gunzTarPerm extractEntry deps/debug/debug.h
+83 silly gunzTarPerm extractEntry deps/fs/package.json
+84 silly gunzTarPerm extractEntry deps/fs/fs.c
+85 silly gunzTarPerm extractEntry deps/fs/fs.h
+86 silly gunzTarPerm extractEntry deps/gumbo-get-element-by-id/package.json
+87 silly gunzTarPerm extractEntry deps/gumbo-get-element-by-id/get-element-by-id.c
+88 silly gunzTarPerm extractEntry deps/gumbo-get-element-by-id/get-element-by-id.h
+89 silly gunzTarPerm extractEntry deps/gumbo-get-elements-by-tag-name/package.json
+90 silly gunzTarPerm extractEntry deps/gumbo-get-elements-by-tag-name/get-elements-by-tag-name.c
+91 silly gunzTarPerm extractEntry deps/gumbo-get-elements-by-tag-name/get-elements-by-tag-name.h
+92 silly gunzTarPerm extractEntry deps/gumbo-parser/package.json
+93 silly gunzTarPerm extractEntry deps/gumbo-parser/string_piece.c
+94 silly gunzTarPerm extractEntry deps/gumbo-parser/char_ref.c
+95 silly gunzTarPerm extractEntry deps/gumbo-parser/char_ref.h
+96 silly gunzTarPerm extractEntry deps/gumbo-parser/error.c
+97 silly gunzTarPerm extractEntry deps/gumbo-parser/error.h
+98 silly gunzTarPerm extractEntry deps/gumbo-parser/gumbo.h
+99 silly gunzTarPerm extractEntry deps/gumbo-parser/insertion_mode.h
+100 silly gunzTarPerm extractEntry deps/gumbo-parser/attribute.c
+101 silly gunzTarPerm extractEntry deps/gumbo-parser/parser.c
+102 silly gunzTarPerm extractEntry deps/gumbo-parser/parser.h
+103 silly gunzTarPerm extractEntry deps/gumbo-parser/string_buffer.c
+104 silly gunzTarPerm extractEntry deps/gumbo-parser/string_buffer.h
+105 silly gunzTarPerm extractEntry deps/gumbo-parser/attribute.h
+106 silly gunzTarPerm extractEntry deps/gumbo-parser/string_piece.h
+107 silly gunzTarPerm extractEntry deps/gumbo-parser/tag.c
+108 silly gunzTarPerm extractEntry deps/gumbo-parser/token_type.h
+109 silly gunzTarPerm extractEntry deps/gumbo-parser/tokenizer.c
+110 silly gunzTarPerm extractEntry deps/gumbo-parser/tokenizer.h
+111 silly gunzTarPerm extractEntry deps/gumbo-parser/tokenizer_states.h
+112 silly gunzTarPerm extractEntry deps/gumbo-parser/utf8.c
+113 silly gunzTarPerm extractEntry deps/gumbo-parser/utf8.h
+114 silly gunzTarPerm extractEntry deps/gumbo-parser/util.c
+115 silly gunzTarPerm extractEntry deps/gumbo-parser/util.h
+116 silly gunzTarPerm extractEntry deps/gumbo-parser/vector.c
+117 silly gunzTarPerm extractEntry deps/gumbo-parser/vector.h
+118 silly gunzTarPerm extractEntry deps/gumbo-text-content/package.json
+119 silly gunzTarPerm extractEntry deps/gumbo-text-content/gumbo-text-content.c
+120 silly gunzTarPerm extractEntry deps/gumbo-text-content/gumbo-text-content.h
+121 silly gunzTarPerm extractEntry deps/http-get/package.json
+122 silly gunzTarPerm extractEntry deps/http-get/http-get.c
+123 silly gunzTarPerm extractEntry deps/http-get/http-get.h
+124 silly gunzTarPerm extractEntry deps/list/package.json
+125 silly gunzTarPerm extractEntry deps/list/list.c
+126 silly gunzTarPerm extractEntry deps/list/list.h
+127 silly gunzTarPerm extractEntry deps/list/list_iterator.c
+128 silly gunzTarPerm extractEntry deps/list/list_node.c
+129 silly gunzTarPerm extractEntry deps/logger/package.json
+130 silly gunzTarPerm extractEntry deps/logger/logger.h
+131 silly gunzTarPerm extractEntry deps/mkdirp/package.json
+132 silly gunzTarPerm extractEntry deps/mkdirp/mkdirp.c
+133 silly gunzTarPerm extractEntry deps/mkdirp/mkdirp.h
+134 silly gunzTarPerm extractEntry deps/occurrences/package.json
+135 silly gunzTarPerm extractEntry deps/occurrences/occurrences.c
+136 silly gunzTarPerm extractEntry deps/occurrences/occurrences.h
+137 silly gunzTarPerm extractEntry deps/case/package.json
+138 silly gunzTarPerm extractEntry deps/case/case.c
+139 silly gunzTarPerm extractEntry deps/case/case.h
+140 silly gunzTarPerm extractEntry deps/parson/package.json
+141 silly gunzTarPerm extractEntry deps/parson/parson.c
+142 silly gunzTarPerm extractEntry deps/parson/parson.h
+143 silly gunzTarPerm extractEntry deps/path-join/package.json
+144 silly gunzTarPerm extractEntry deps/path-join/path-join.c
+145 silly gunzTarPerm extractEntry deps/path-join/path-join.h
+146 silly gunzTarPerm extractEntry deps/path-normalize/package.json
+147 silly gunzTarPerm extractEntry deps/path-normalize/path-normalize.c
+148 silly gunzTarPerm extractEntry deps/path-normalize/path-normalize.h
+149 silly gunzTarPerm extractEntry deps/str-concat/package.json
+150 silly gunzTarPerm extractEntry deps/str-concat/str-concat.c
+151 silly gunzTarPerm extractEntry deps/str-concat/str-concat.h
+152 silly gunzTarPerm extractEntry deps/str-ends-with/package.json
+153 silly gunzTarPerm extractEntry deps/str-ends-with/str-ends-with.c
+154 silly gunzTarPerm extractEntry deps/str-ends-with/str-ends-with.h
+155 silly gunzTarPerm extractEntry deps/str-flatten/package.json
+156 silly gunzTarPerm extractEntry deps/str-flatten/str-flatten.c
+157 silly gunzTarPerm extractEntry deps/str-flatten/str-flatten.h
+158 silly gunzTarPerm extractEntry deps/str-replace/package.json
+159 silly gunzTarPerm extractEntry deps/str-replace/str-replace.c
+160 silly gunzTarPerm extractEntry deps/str-replace/str-replace.h
+161 silly gunzTarPerm extractEntry deps/str-starts-with/package.json
+162 silly gunzTarPerm extractEntry deps/str-starts-with/str-starts-with.c
+163 silly gunzTarPerm extractEntry deps/str-starts-with/str-starts-with.h
+164 silly gunzTarPerm extractEntry deps/strdup/package.json
+165 silly gunzTarPerm extractEntry deps/strdup/strdup.c
+166 silly gunzTarPerm extractEntry deps/strdup/strdup.h
+167 silly gunzTarPerm extractEntry deps/substr/package.json
+168 silly gunzTarPerm extractEntry deps/substr/substr.c
+169 silly gunzTarPerm extractEntry deps/substr/substr.h
+170 silly gunzTarPerm extractEntry deps/tempdir/package.json
+171 silly gunzTarPerm extractEntry deps/tempdir/tempdir.c
+172 silly gunzTarPerm extractEntry deps/tempdir/tempdir.h
+173 silly gunzTarPerm extractEntry deps/trim/package.json
+174 silly gunzTarPerm extractEntry deps/trim/trim.c
+175 silly gunzTarPerm extractEntry deps/trim/trim.h
+176 silly gunzTarPerm extractEntry deps/which/package.json
+177 silly gunzTarPerm extractEntry deps/which/which.c
+178 silly gunzTarPerm extractEntry deps/which/which.h
+179 silly gunzTarPerm extractEntry deps/wiki-registry/package.json
+180 silly gunzTarPerm extractEntry deps/wiki-registry/wiki-registry.c
+181 silly gunzTarPerm extractEntry deps/wiki-registry/wiki-registry.h
+182 silly gunzTarPerm extractEntry deps/wildcardcmp/package.json
+183 silly gunzTarPerm extractEntry deps/wildcardcmp/wildcardcmp.c
+184 silly gunzTarPerm extractEntry deps/wildcardcmp/wildcardcmp.h
+185 silly gunzTarPerm extractEntry History.md
+186 silly gunzTarPerm extractEntry src/clib-install.c
+187 silly gunzTarPerm extractEntry src/clib-search.c
+188 silly gunzTarPerm extractEntry src/clib.c
+189 silly gunzTarPerm extractEntry src/version.h
+190 silly gunzTarPerm extractEntry test/install-deps-from-package-json.sh
+191 silly gunzTarPerm extractEntry test/data/test-save-package.json
+192 silly gunzTarPerm extractEntry test/help.sh
+193 silly gunzTarPerm extractEntry test/install-binary-dependencies.sh
+194 silly gunzTarPerm extractEntry test/install-brace-expansion.sh
+195 silly gunzTarPerm extractEntry test/gh-35-exit-codes.sh
+196 silly gunzTarPerm extractEntry test/install-multiple-clibs-libs.sh
+197 silly gunzTarPerm extractEntry test/install-multiple-libs.sh
+198 silly gunzTarPerm extractEntry test/install-save.sh
+199 silly gunzTarPerm extractEntry test/search-basic.sh
+200 silly gunzTarPerm extractEntry test/search-no-color.sh
+201 silly gunzTarPerm extractEntry Readme.md
+202 verbose write writing to /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib/package.json
+203 info preinstall clib@1.7.0
+204 verbose readDependencies loading dependencies from /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib/package.json
+205 silly prepareForInstallMany adding stephenmathieson/trim.c@0.0.2 from clib dependencies
+206 silly prepareForInstallMany adding which@0.1.3 from clib dependencies
+207 silly prepareForInstallMany adding stephenmathieson/str-flatten.c@0.0.4 from clib dependencies
+208 silly prepareForInstallMany adding clib-package@0.4.2 from clib dependencies
+209 silly prepareForInstallMany adding commander@1.3.2 from clib dependencies
+210 silly prepareForInstallMany adding stephenmathieson/wiki-registry.c@0.0.4 from clib dependencies
+211 silly prepareForInstallMany adding stephenmathieson/case.c@0.1.3 from clib dependencies
+212 silly prepareForInstallMany adding jwerle/fs.c@0.1.1 from clib dependencies
+213 silly prepareForInstallMany adding stephenmathieson/http-get.c@0.1.1 from clib dependencies
+214 silly prepareForInstallMany adding stephenmathieson/tempdir.c@0.0.2 from clib dependencies
+215 silly prepareForInstallMany adding stephenmathieson/str-replace.c@0.0.6 from clib dependencies
+216 silly prepareForInstallMany adding darthtrevino/str-concat@0.0.2 from clib dependencies
+217 silly prepareForInstallMany adding strdup@0.0.0 from clib dependencies
+218 silly prepareForInstallMany adding Constellation/console-colors.c@1.0.1 from clib dependencies
+219 silly prepareForInstallMany adding littlstar/asprintf.c@0.0.3 from clib dependencies
+220 silly prepareForInstallMany adding logger@0.0.1 from clib dependencies
+221 silly prepareForInstallMany adding clibs/parson@1.0.2 from clib dependencies
+222 verbose readDependencies loading dependencies from /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib/package.json
+223 silly cache add args [ 'stephenmathieson/trim.c@0.0.2', null ]
+224 verbose cache add spec stephenmathieson/trim.c@0.0.2
+225 silly cache add args [ 'which@0.1.3', null ]
+226 verbose cache add spec which@0.1.3
+227 silly cache add parsed spec Result {
+227 silly cache add   raw: 'which@0.1.3',
+227 silly cache add   scope: null,
+227 silly cache add   name: 'which',
+227 silly cache add   rawSpec: '0.1.3',
+227 silly cache add   spec: '0.1.3',
+227 silly cache add   type: 'version' }
+228 silly addNamed which@0.1.3
+229 verbose addNamed "0.1.3" is a plain semver version for which
+230 silly mapToRegistry name which
+231 silly mapToRegistry using default registry
+232 silly mapToRegistry registry https://registry.npmjs.org/
+233 silly mapToRegistry data Result {
+233 silly mapToRegistry   raw: 'which',
+233 silly mapToRegistry   scope: null,
+233 silly mapToRegistry   name: 'which',
+233 silly mapToRegistry   rawSpec: '',
+233 silly mapToRegistry   spec: 'latest',
+233 silly mapToRegistry   type: 'tag' }
+234 silly mapToRegistry uri https://registry.npmjs.org/which
+235 verbose addNameVersion registry:https://registry.npmjs.org/which not in flight; fetching
+236 silly cache add args [ 'stephenmathieson/str-flatten.c@0.0.4', null ]
+237 verbose cache add spec stephenmathieson/str-flatten.c@0.0.4
+238 silly cache add args [ 'clib-package@0.4.2', null ]
+239 verbose cache add spec clib-package@0.4.2
+240 silly cache add parsed spec Result {
+240 silly cache add   raw: 'clib-package@0.4.2',
+240 silly cache add   scope: null,
+240 silly cache add   name: 'clib-package',
+240 silly cache add   rawSpec: '0.4.2',
+240 silly cache add   spec: '0.4.2',
+240 silly cache add   type: 'version' }
+241 silly addNamed clib-package@0.4.2
+242 verbose addNamed "0.4.2" is a plain semver version for clib-package
+243 silly mapToRegistry name clib-package
+244 silly mapToRegistry using default registry
+245 silly mapToRegistry registry https://registry.npmjs.org/
+246 silly mapToRegistry data Result {
+246 silly mapToRegistry   raw: 'clib-package',
+246 silly mapToRegistry   scope: null,
+246 silly mapToRegistry   name: 'clib-package',
+246 silly mapToRegistry   rawSpec: '',
+246 silly mapToRegistry   spec: 'latest',
+246 silly mapToRegistry   type: 'tag' }
+247 silly mapToRegistry uri https://registry.npmjs.org/clib-package
+248 verbose addNameVersion registry:https://registry.npmjs.org/clib-package not in flight; fetching
+249 silly cache add args [ 'commander@1.3.2', null ]
+250 verbose cache add spec commander@1.3.2
+251 silly cache add parsed spec Result {
+251 silly cache add   raw: 'commander@1.3.2',
+251 silly cache add   scope: null,
+251 silly cache add   name: 'commander',
+251 silly cache add   rawSpec: '1.3.2',
+251 silly cache add   spec: '1.3.2',
+251 silly cache add   type: 'version' }
+252 silly addNamed commander@1.3.2
+253 verbose addNamed "1.3.2" is a plain semver version for commander
+254 silly mapToRegistry name commander
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry data Result {
+257 silly mapToRegistry   raw: 'commander',
+257 silly mapToRegistry   scope: null,
+257 silly mapToRegistry   name: 'commander',
+257 silly mapToRegistry   rawSpec: '',
+257 silly mapToRegistry   spec: 'latest',
+257 silly mapToRegistry   type: 'tag' }
+258 silly mapToRegistry uri https://registry.npmjs.org/commander
+259 verbose addNameVersion registry:https://registry.npmjs.org/commander not in flight; fetching
+260 silly cache add args [ 'stephenmathieson/wiki-registry.c@0.0.4', null ]
+261 verbose cache add spec stephenmathieson/wiki-registry.c@0.0.4
+262 silly cache add args [ 'stephenmathieson/case.c@0.1.3', null ]
+263 verbose cache add spec stephenmathieson/case.c@0.1.3
+264 silly cache add args [ 'jwerle/fs.c@0.1.1', null ]
+265 verbose cache add spec jwerle/fs.c@0.1.1
+266 silly cache add args [ 'stephenmathieson/http-get.c@0.1.1', null ]
+267 verbose cache add spec stephenmathieson/http-get.c@0.1.1
+268 silly cache add args [ 'stephenmathieson/tempdir.c@0.0.2', null ]
+269 verbose cache add spec stephenmathieson/tempdir.c@0.0.2
+270 silly cache add args [ 'stephenmathieson/str-replace.c@0.0.6', null ]
+271 verbose cache add spec stephenmathieson/str-replace.c@0.0.6
+272 silly cache add args [ 'darthtrevino/str-concat@0.0.2', null ]
+273 verbose cache add spec darthtrevino/str-concat@0.0.2
+274 silly cache add args [ 'strdup@0.0.0', null ]
+275 verbose cache add spec strdup@0.0.0
+276 silly cache add parsed spec Result {
+276 silly cache add   raw: 'strdup@0.0.0',
+276 silly cache add   scope: null,
+276 silly cache add   name: 'strdup',
+276 silly cache add   rawSpec: '0.0.0',
+276 silly cache add   spec: '0.0.0',
+276 silly cache add   type: 'version' }
+277 silly addNamed strdup@0.0.0
+278 verbose addNamed "0.0.0" is a plain semver version for strdup
+279 silly mapToRegistry name strdup
+280 silly mapToRegistry using default registry
+281 silly mapToRegistry registry https://registry.npmjs.org/
+282 silly mapToRegistry data Result {
+282 silly mapToRegistry   raw: 'strdup',
+282 silly mapToRegistry   scope: null,
+282 silly mapToRegistry   name: 'strdup',
+282 silly mapToRegistry   rawSpec: '',
+282 silly mapToRegistry   spec: 'latest',
+282 silly mapToRegistry   type: 'tag' }
+283 silly mapToRegistry uri https://registry.npmjs.org/strdup
+284 verbose addNameVersion registry:https://registry.npmjs.org/strdup not in flight; fetching
+285 silly cache add args [ 'Constellation/console-colors.c@1.0.1', null ]
+286 verbose cache add spec Constellation/console-colors.c@1.0.1
+287 silly cache add args [ 'littlstar/asprintf.c@0.0.3', null ]
+288 verbose cache add spec littlstar/asprintf.c@0.0.3
+289 silly cache add args [ 'logger@0.0.1', null ]
+290 verbose cache add spec logger@0.0.1
+291 silly cache add parsed spec Result {
+291 silly cache add   raw: 'logger@0.0.1',
+291 silly cache add   scope: null,
+291 silly cache add   name: 'logger',
+291 silly cache add   rawSpec: '0.0.1',
+291 silly cache add   spec: '0.0.1',
+291 silly cache add   type: 'version' }
+292 silly addNamed logger@0.0.1
+293 verbose addNamed "0.0.1" is a plain semver version for logger
+294 silly mapToRegistry name logger
+295 silly mapToRegistry using default registry
+296 silly mapToRegistry registry https://registry.npmjs.org/
+297 silly mapToRegistry data Result {
+297 silly mapToRegistry   raw: 'logger',
+297 silly mapToRegistry   scope: null,
+297 silly mapToRegistry   name: 'logger',
+297 silly mapToRegistry   rawSpec: '',
+297 silly mapToRegistry   spec: 'latest',
+297 silly mapToRegistry   type: 'tag' }
+298 silly mapToRegistry uri https://registry.npmjs.org/logger
+299 verbose addNameVersion registry:https://registry.npmjs.org/logger not in flight; fetching
+300 silly cache add args [ 'clibs/parson@1.0.2', null ]
+301 verbose cache add spec clibs/parson@1.0.2
+302 silly cache add parsed spec Result {
+302 silly cache add   raw: 'stephenmathieson/trim.c@0.0.2',
+302 silly cache add   scope: null,
+302 silly cache add   name: null,
+302 silly cache add   rawSpec: 'stephenmathieson/trim.c@0.0.2',
+302 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/trim.c@0.0.2',
+302 silly cache add   type: 'local' }
+303 silly cache add parsed spec Result {
+303 silly cache add   raw: 'stephenmathieson/str-flatten.c@0.0.4',
+303 silly cache add   scope: null,
+303 silly cache add   name: null,
+303 silly cache add   rawSpec: 'stephenmathieson/str-flatten.c@0.0.4',
+303 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/str-flatten.c@0.0.4',
+303 silly cache add   type: 'local' }
+304 verbose request uri https://registry.npmjs.org/clib-package
+305 verbose request no auth needed
+306 info attempt registry request try #1 at 4:38:32 AM
+307 verbose request id d98826277e414704
+308 http request GET https://registry.npmjs.org/clib-package
+309 silly cache add parsed spec Result {
+309 silly cache add   raw: 'stephenmathieson/wiki-registry.c@0.0.4',
+309 silly cache add   scope: null,
+309 silly cache add   name: null,
+309 silly cache add   rawSpec: 'stephenmathieson/wiki-registry.c@0.0.4',
+309 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/wiki-registry.c@0.0.4',
+309 silly cache add   type: 'local' }
+310 silly cache add parsed spec Result {
+310 silly cache add   raw: 'stephenmathieson/case.c@0.1.3',
+310 silly cache add   scope: null,
+310 silly cache add   name: null,
+310 silly cache add   rawSpec: 'stephenmathieson/case.c@0.1.3',
+310 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/case.c@0.1.3',
+310 silly cache add   type: 'local' }
+311 silly cache add parsed spec Result {
+311 silly cache add   raw: 'jwerle/fs.c@0.1.1',
+311 silly cache add   scope: null,
+311 silly cache add   name: null,
+311 silly cache add   rawSpec: 'jwerle/fs.c@0.1.1',
+311 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/jwerle/fs.c@0.1.1',
+311 silly cache add   type: 'local' }
+312 silly cache add parsed spec Result {
+312 silly cache add   raw: 'stephenmathieson/http-get.c@0.1.1',
+312 silly cache add   scope: null,
+312 silly cache add   name: null,
+312 silly cache add   rawSpec: 'stephenmathieson/http-get.c@0.1.1',
+312 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/http-get.c@0.1.1',
+312 silly cache add   type: 'local' }
+313 silly cache add parsed spec Result {
+313 silly cache add   raw: 'stephenmathieson/tempdir.c@0.0.2',
+313 silly cache add   scope: null,
+313 silly cache add   name: null,
+313 silly cache add   rawSpec: 'stephenmathieson/tempdir.c@0.0.2',
+313 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/tempdir.c@0.0.2',
+313 silly cache add   type: 'local' }
+314 silly cache add parsed spec Result {
+314 silly cache add   raw: 'stephenmathieson/str-replace.c@0.0.6',
+314 silly cache add   scope: null,
+314 silly cache add   name: null,
+314 silly cache add   rawSpec: 'stephenmathieson/str-replace.c@0.0.6',
+314 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/str-replace.c@0.0.6',
+314 silly cache add   type: 'local' }
+315 silly cache add parsed spec Result {
+315 silly cache add   raw: 'darthtrevino/str-concat@0.0.2',
+315 silly cache add   scope: null,
+315 silly cache add   name: null,
+315 silly cache add   rawSpec: 'darthtrevino/str-concat@0.0.2',
+315 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/darthtrevino/str-concat@0.0.2',
+315 silly cache add   type: 'local' }
+316 verbose request uri https://registry.npmjs.org/strdup
+317 verbose request no auth needed
+318 info attempt registry request try #1 at 4:38:32 AM
+319 http request GET https://registry.npmjs.org/strdup
+320 silly cache add parsed spec Result {
+320 silly cache add   raw: 'Constellation/console-colors.c@1.0.1',
+320 silly cache add   scope: null,
+320 silly cache add   name: null,
+320 silly cache add   rawSpec: 'Constellation/console-colors.c@1.0.1',
+320 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/Constellation/console-colors.c@1.0.1',
+320 silly cache add   type: 'local' }
+321 silly cache add parsed spec Result {
+321 silly cache add   raw: 'littlstar/asprintf.c@0.0.3',
+321 silly cache add   scope: null,
+321 silly cache add   name: null,
+321 silly cache add   rawSpec: 'littlstar/asprintf.c@0.0.3',
+321 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/littlstar/asprintf.c@0.0.3',
+321 silly cache add   type: 'local' }
+322 silly cache add parsed spec Result {
+322 silly cache add   raw: 'clibs/parson@1.0.2',
+322 silly cache add   scope: null,
+322 silly cache add   name: null,
+322 silly cache add   rawSpec: 'clibs/parson@1.0.2',
+322 silly cache add   spec: '/home/ubuntu/workspace/cnode/c_node_module/clibs/parson@1.0.2',
+322 silly cache add   type: 'local' }
+323 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/trim.c@0.0.2
+324 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/str-flatten.c@0.0.4
+325 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/wiki-registry.c@0.0.4
+326 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/case.c@0.1.3
+327 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/jwerle/fs.c@0.1.1
+328 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/http-get.c@0.1.1
+329 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/tempdir.c@0.0.2
+330 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/str-replace.c@0.0.6
+331 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/darthtrevino/str-concat@0.0.2
+332 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/Constellation/console-colors.c@1.0.1
+333 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/littlstar/asprintf.c@0.0.3
+334 error addLocal Could not install /home/ubuntu/workspace/cnode/c_node_module/clibs/parson@1.0.2
+335 verbose request uri https://registry.npmjs.org/which
+336 verbose request no auth needed
+337 info attempt registry request try #1 at 4:38:32 AM
+338 verbose etag "XY5Y4XOJQ03J38O7XE2JNVZS"
+339 http request GET https://registry.npmjs.org/which
+340 verbose request uri https://registry.npmjs.org/commander
+341 verbose request no auth needed
+342 info attempt registry request try #1 at 4:38:32 AM
+343 verbose etag "DO19GEA5CUZH2GX1REGS9Y9TW"
+344 http request GET https://registry.npmjs.org/commander
+345 verbose request uri https://registry.npmjs.org/logger
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 4:38:32 AM
+348 verbose etag "5G7QKA86ISKRBU42W9HR7Q46U"
+349 http request GET https://registry.npmjs.org/logger
+350 http 304 https://registry.npmjs.org/which
+351 verbose headers { date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+351 verbose headers   via: '1.1 varnish',
+351 verbose headers   'cache-control': 'max-age=300',
+351 verbose headers   etag: '"XY5Y4XOJQ03J38O7XE2JNVZS"',
+351 verbose headers   age: '211',
+351 verbose headers   connection: 'keep-alive',
+351 verbose headers   'x-served-by': 'cache-jfk1043-JFK',
+351 verbose headers   'x-cache': 'HIT',
+351 verbose headers   'x-cache-hits': '4',
+351 verbose headers   'x-timer': 'S1465879112.864713,VS0,VE0',
+351 verbose headers   vary: 'Accept-Encoding' }
+352 silly get cb [ 304,
+352 silly get   { date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+352 silly get     via: '1.1 varnish',
+352 silly get     'cache-control': 'max-age=300',
+352 silly get     etag: '"XY5Y4XOJQ03J38O7XE2JNVZS"',
+352 silly get     age: '211',
+352 silly get     connection: 'keep-alive',
+352 silly get     'x-served-by': 'cache-jfk1043-JFK',
+352 silly get     'x-cache': 'HIT',
+352 silly get     'x-cache-hits': '4',
+352 silly get     'x-timer': 'S1465879112.864713,VS0,VE0',
+352 silly get     vary: 'Accept-Encoding' } ]
+353 verbose etag https://registry.npmjs.org/which from cache
+354 verbose get saving which to /home/ubuntu/.npm/registry.npmjs.org/which/.cache.json
+355 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+356 http 304 https://registry.npmjs.org/commander
+357 verbose headers { date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+357 verbose headers   via: '1.1 varnish',
+357 verbose headers   'cache-control': 'max-age=300',
+357 verbose headers   etag: '"DO19GEA5CUZH2GX1REGS9Y9TW"',
+357 verbose headers   age: '210',
+357 verbose headers   connection: 'keep-alive',
+357 verbose headers   'x-served-by': 'cache-jfk1020-JFK',
+357 verbose headers   'x-cache': 'HIT',
+357 verbose headers   'x-cache-hits': '114',
+357 verbose headers   'x-timer': 'S1465879112.869375,VS0,VE0',
+357 verbose headers   vary: 'Accept-Encoding' }
+358 silly get cb [ 304,
+358 silly get   { date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+358 silly get     via: '1.1 varnish',
+358 silly get     'cache-control': 'max-age=300',
+358 silly get     etag: '"DO19GEA5CUZH2GX1REGS9Y9TW"',
+358 silly get     age: '210',
+358 silly get     connection: 'keep-alive',
+358 silly get     'x-served-by': 'cache-jfk1020-JFK',
+358 silly get     'x-cache': 'HIT',
+358 silly get     'x-cache-hits': '114',
+358 silly get     'x-timer': 'S1465879112.869375,VS0,VE0',
+358 silly get     vary: 'Accept-Encoding' } ]
+359 verbose etag https://registry.npmjs.org/commander from cache
+360 verbose get saving commander to /home/ubuntu/.npm/registry.npmjs.org/commander/.cache.json
+361 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+362 http 404 https://registry.npmjs.org/strdup
+363 verbose headers { 'content-type': 'application/json',
+363 verbose headers   'cache-control': 'max-age=0',
+363 verbose headers   'content-length': '2',
+363 verbose headers   'accept-ranges': 'bytes',
+363 verbose headers   date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+363 verbose headers   via: '1.1 varnish',
+363 verbose headers   age: '0',
+363 verbose headers   connection: 'keep-alive',
+363 verbose headers   'x-served-by': 'cache-jfk1025-JFK',
+363 verbose headers   'x-cache': 'MISS',
+363 verbose headers   'x-cache-hits': '0',
+363 verbose headers   'x-timer': 'S1465879112.860596,VS0,VE23',
+363 verbose headers   vary: 'Accept-Encoding' }
+364 silly get cb [ 404,
+364 silly get   { 'content-type': 'application/json',
+364 silly get     'cache-control': 'max-age=0',
+364 silly get     'content-length': '2',
+364 silly get     'accept-ranges': 'bytes',
+364 silly get     date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+364 silly get     via: '1.1 varnish',
+364 silly get     age: '0',
+364 silly get     connection: 'keep-alive',
+364 silly get     'x-served-by': 'cache-jfk1025-JFK',
+364 silly get     'x-cache': 'MISS',
+364 silly get     'x-cache-hits': '0',
+364 silly get     'x-timer': 'S1465879112.860596,VS0,VE23',
+364 silly get     vary: 'Accept-Encoding' } ]
+365 silly cache afterAdd commander@1.3.2
+366 verbose afterAdd /home/ubuntu/.npm/commander/1.3.2/package/package.json not in flight; writing
+367 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+368 verbose afterAdd /home/ubuntu/.npm/commander/1.3.2/package/package.json written
+369 http 404 https://registry.npmjs.org/clib-package
+370 verbose headers { 'content-type': 'application/json',
+370 verbose headers   'cache-control': 'max-age=0',
+370 verbose headers   'content-length': '2',
+370 verbose headers   'accept-ranges': 'bytes',
+370 verbose headers   date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+370 verbose headers   via: '1.1 varnish',
+370 verbose headers   age: '0',
+370 verbose headers   connection: 'keep-alive',
+370 verbose headers   'x-served-by': 'cache-jfk1020-JFK',
+370 verbose headers   'x-cache': 'MISS',
+370 verbose headers   'x-cache-hits': '0',
+370 verbose headers   'x-timer': 'S1465879112.863911,VS0,VE102',
+370 verbose headers   vary: 'Accept-Encoding' }
+371 silly get cb [ 404,
+371 silly get   { 'content-type': 'application/json',
+371 silly get     'cache-control': 'max-age=0',
+371 silly get     'content-length': '2',
+371 silly get     'accept-ranges': 'bytes',
+371 silly get     date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+371 silly get     via: '1.1 varnish',
+371 silly get     age: '0',
+371 silly get     connection: 'keep-alive',
+371 silly get     'x-served-by': 'cache-jfk1020-JFK',
+371 silly get     'x-cache': 'MISS',
+371 silly get     'x-cache-hits': '0',
+371 silly get     'x-timer': 'S1465879112.863911,VS0,VE102',
+371 silly get     vary: 'Accept-Encoding' } ]
+372 http 304 https://registry.npmjs.org/logger
+373 verbose headers { date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+373 verbose headers   via: '1.1 varnish',
+373 verbose headers   'cache-control': 'max-age=300',
+373 verbose headers   etag: '"5G7QKA86ISKRBU42W9HR7Q46U"',
+373 verbose headers   age: '0',
+373 verbose headers   connection: 'keep-alive',
+373 verbose headers   'x-served-by': 'cache-jfk1045-JFK',
+373 verbose headers   'x-cache': 'MISS',
+373 verbose headers   'x-cache-hits': '0',
+373 verbose headers   'x-timer': 'S1465879112.866802,VS0,VE100',
+373 verbose headers   vary: 'Accept-Encoding' }
+374 silly get cb [ 304,
+374 silly get   { date: 'Tue, 14 Jun 2016 04:38:32 GMT',
+374 silly get     via: '1.1 varnish',
+374 silly get     'cache-control': 'max-age=300',
+374 silly get     etag: '"5G7QKA86ISKRBU42W9HR7Q46U"',
+374 silly get     age: '0',
+374 silly get     connection: 'keep-alive',
+374 silly get     'x-served-by': 'cache-jfk1045-JFK',
+374 silly get     'x-cache': 'MISS',
+374 silly get     'x-cache-hits': '0',
+374 silly get     'x-timer': 'S1465879112.866802,VS0,VE100',
+374 silly get     vary: 'Accept-Encoding' } ]
+375 verbose etag https://registry.npmjs.org/logger from cache
+376 verbose get saving logger to /home/ubuntu/.npm/registry.npmjs.org/logger/.cache.json
+377 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+378 silly cache afterAdd logger@0.0.1
+379 verbose afterAdd /home/ubuntu/.npm/logger/0.0.1/package/package.json not in flight; writing
+380 verbose correctMkdir /home/ubuntu/.npm correctMkdir not in flight; initializing
+381 verbose afterAdd /home/ubuntu/.npm/logger/0.0.1/package/package.json written
+382 verbose about to build /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+383 verbose unlock done using /home/ubuntu/.npm/_locks/clib-ad8fbd7b5493c0ff.lock for /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+384 verbose stack Error: ENOENT: no such file or directory, open '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/trim.c@0.0.2'
+384 verbose stack     at Error (native)
+385 verbose cwd /home/ubuntu/workspace/cnode/c_node_module
+386 error Linux 4.2.0-c9
+387 error argv "/home/ubuntu/.nvm/versions/node/v4.4.3/bin/node" "/home/ubuntu/.nvm/versions/node/v4.4.3/bin/npm" "install" "-g" "visionmedia/cpm"
+388 error node v4.4.3
+389 error npm  v2.15.1
+390 error path /home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/trim.c@0.0.2
+391 error code ENOENT
+392 error errno -2
+393 error syscall open
+394 error enoent ENOENT: no such file or directory, open '/home/ubuntu/workspace/cnode/c_node_module/stephenmathieson/trim.c@0.0.2'
+394 error enoent This is most likely not a problem with npm itself
+394 error enoent and is related to npm not being able to find a file.
+395 verbose exit [ -2, true ]
+396 verbose unbuild lib/node_modules/clib
+397 info preuninstall clib@1.7.0
+398 info uninstall clib@1.7.0
+399 verbose unbuild rmStuff clib@1.7.0 from /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules
+400 info postuninstall clib@1.7.0
+401 silly gentlyRm /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib is being purged from base /home/ubuntu/.nvm/versions/node/v4.4.3
+402 verbose gentlyRm don't care about contents; nuking /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+403 silly vacuum-fs purging /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules/clib
+404 silly vacuum-fs quitting because other entries in /home/ubuntu/.nvm/versions/node/v4.4.3/lib/node_modules

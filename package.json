@@ -1,0 +1,5 @@
+{
+    "name": "nombre_modulo",
+    "version": "1.0.0",
+    "main": "./build/Release/nombre_modulo"
+}
