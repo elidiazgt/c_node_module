@@ -3,13 +3,13 @@ Mi Primer modulo en c para node
 Para compilar ejecutar
 npm build .
 
-Binding gyp 
+  Binding gyp 
 Archivo que indica como debe de compilarse independientemente
 de la plataforma
-nombre_modulo.cpp
+  nombre_modulo.cpp
 codigo en c que el modulo va a ejecutar
-package.json
+  package.json
 nombre version y ubucacion del resultado
-run.js 
+  run.js 
 prueba del nuevo modulo
 
